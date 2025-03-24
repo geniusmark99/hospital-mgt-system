@@ -1,14 +1,20 @@
 'use client';
 import React from 'react'
-import { AppContainer } from '@/components';
+import { AppContainer, AnalysisTabs } from '@/components';
 
 
 export default function Analytics() {
     return (
         <AppContainer>
-            <div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores natus, unde pariatur vel provident molestias fugit animi sapiente? Ducimus culpa deleniti vel? Consectetur vitae cum aperiam facilis autem, voluptas a?
+
+            <div className='overflow-x-hidden'>
+                <div className='space-y-4 '>
+                    <h1 className='text-lg md:text-lg lg:text-2xl font-semibold'>Analytics & Decision support </h1>
+                </div>
             </div>
+
+            <AnalysisTabs className='mt-5' />
+
         </AppContainer>
     )
 }

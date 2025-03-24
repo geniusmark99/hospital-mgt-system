@@ -12,7 +12,7 @@ const AppContainer = ({ children }: any) => {
     const handleClickMenu = () => setClickmenu(!clickmenu);
 
     return <>
-        <main className='flex'>
+        <main className='flex overflow-x-hidden'>
             <Sidebar />
             {clickmenu && (
                 <motion.div
