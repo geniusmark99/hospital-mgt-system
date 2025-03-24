@@ -27,8 +27,8 @@ const AppContainer = ({ children }: any) => {
                 </motion.div>
             )}
 
-            <section className='w-full lg:w-10/12 lg:ml-[280px]  h-auto'>
-                <header className='flex items-center justify-between px-5 py-4 bg-white border-b border-transparent shadow-xs'>
+            <section className='w-full  lg:w-10/12 lg:ml-[280px]  h-auto'>
+                <header className='flex items-center justify-around md:justify-between px-2 md:px-5 py-4  border-b border-transparent shadow-xs'>
                     <div className='flex items-center justify-between gap-x-3'>
 
                         <button onClick={handleClickMenu} className='lg:hidden flex items-center gap-x-2'>
