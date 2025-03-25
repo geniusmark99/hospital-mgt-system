@@ -12,7 +12,7 @@ export default function Dashboard() {
         <AppContainer>
             <div className=''>
                 <div className='space-y-4'>
-                    <h1 className='text-lg md:text-lg lg:text-xl font-semibold'>Dashboard</h1>
+                    <h1 className='text-lg md:text-lg lg:text-3xl font-semibold'>Dashboard</h1>
                     <div className='grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-3 lg:grid-cols-4 lg:gap-6'>
                         <div className='rounded-2xl py-4 px-3 shadow-sm  shadow-gray-300 flex flex-col gap-y-4'>
                             <div>
